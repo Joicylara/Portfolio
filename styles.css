@@ -1139,6 +1139,16 @@ p {
   margin: 2px 0 0;
   color: var(--muted);
 }
+.soft-skills-list {
+  padding-inline-start: 1.25rem;
+  color: var(--muted);
+}
+.soft-skills-list li + li {
+  margin-top: 0.25rem;
+}
+.soft-skills-list li::marker {
+  color: var(--link);
+}
 .education-art {
   width: min(100%, 310px);
   margin-top: 4px;
